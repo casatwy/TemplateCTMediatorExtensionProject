@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A294A0E2174853900116F56 /* __CTMediatorExtension__.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A294A0D2174853900116F56 /* __CTMediatorExtension__.swift */; };
 		4A785B052171FC9A002C16BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A785B042171FC9A002C16BD /* AppDelegate.swift */; };
 		4A785B0A2171FC9A002C16BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A785B082171FC9A002C16BD /* Main.storyboard */; };
 		4A785B0C2171FC9B002C16BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A785B0B2171FC9B002C16BD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A294A0D2174853900116F56 /* __CTMediatorExtension__.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __CTMediatorExtension__.swift; sourceTree = "<group>"; };
 		4A785B012171FC9A002C16BD /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A785B042171FC9A002C16BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A785B092171FC9A002C16BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		4A785B162171FCBA002C16BD /* TemplateProject */ = {
 			isa = PBXGroup;
 			children = (
+				4A294A0D2174853900116F56 /* __CTMediatorExtension__.swift */,
 			);
 			path = TemplateProject;
 			sourceTree = "<group>";
@@ -115,7 +118,6 @@
 				AC324379E7B892C03B8780B1 /* Pods-TemplateProject.debug.xcconfig */,
 				5772A3CAAFC4AE0614DB2DA8 /* Pods-TemplateProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -197,12 +199,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TemplateProject/Pods-TemplateProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHandyFrame/SwiftHandyFrame.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHandyFrame.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8439AD21747D9E00469D4A /* ViewController.swift in Sources */,
+				4A294A0E2174853900116F56 /* __CTMediatorExtension__.swift in Sources */,
 				4A785B052171FC9A002C16BD /* AppDelegate.swift in Sources */,
 				4A8439AF21747E1E00469D4A /* UITableView.ViewController.extension.swift in Sources */,
 				4A8439B121747E2D00469D4A /* LifeCycle.ViewController.extension.swift in Sources */,

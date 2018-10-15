@@ -1,16 +1,20 @@
 PODS:
+  - CTMediator (25)
   - SwiftHandyFrame (5)
 
 DEPENDENCIES:
+  - CTMediator
   - SwiftHandyFrame
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CTMediator
     - SwiftHandyFrame
 
 SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   SwiftHandyFrame: d2c11d3774d73a103cd6287c0933f97ab459d6ff
 
-PODFILE CHECKSUM: 323e3b179de03a95129dde10870292d9c51658fc
+PODFILE CHECKSUM: bdb7f03fd45867352f82967bc83e571a70f7a37e
 
 COCOAPODS: 1.6.0.beta.1

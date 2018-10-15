@@ -9,5 +9,6 @@ use_frameworks!
 target 'TemplateProject' do
 
 pod "SwiftHandyFrame"
+pod "CTMediator"
  
 end
